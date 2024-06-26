@@ -7,10 +7,10 @@
 
 import Foundation
 
-
-final class AppDependencies {
+class AppDependencies {
     
     let tracker: Tracking = Tracker()
     let abTester: ABTesting  = ABTester()
     let network: Networking = WebService()
+    let featureToggles: FeatureToggles = FeatureTogglesManager()
 }

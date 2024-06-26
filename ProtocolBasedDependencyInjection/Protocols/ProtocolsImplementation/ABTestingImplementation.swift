@@ -8,5 +8,5 @@
 import Foundation
 
 protocol ABTestingImplementation {
-    var abTesting: ABTesting { get }
+    var abTester: ABTesting { get }
 }

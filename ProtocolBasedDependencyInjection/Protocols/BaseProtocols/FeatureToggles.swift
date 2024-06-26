@@ -1,5 +1,5 @@
 //
-//  NetworkingImplementation.swift
+//  FeatureToggles.swift
 //  ProtocolBasedDependencyInjection
 //
 //  Created by Manyuchi, Carrington C on 2024/06/26.
@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol NetworkingImplementation {
-    var network: Networking { get }
+protocol FeatureToggles {
+    
 }

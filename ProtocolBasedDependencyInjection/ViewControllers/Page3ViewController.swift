@@ -1,5 +1,5 @@
 //
-//  Page2ViewController.swift
+//  Page3ViewController.swift
 //  ProtocolBasedDependencyInjection
 //
 //  Created by Manyuchi, Carrington C on 2024/06/26.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-class Page2ViewController: UIViewController {
+class Page3ViewController: UIViewController {
     
-    typealias Dependencies = TrackingImplementation & ABTestingImplementation & Page3ViewController
-    private let dependencies: Dependencies
-        
-    init(dependencies: Dependencies) {
+    typealias Dependecies =  FeatureTogglesImplementation
+    let dependencies: Dependecies
+    
+    init(_ dependencies: Dependecies) {
         self.dependencies = dependencies
         super.init(nibName: nil, bundle: nil)
     }
@@ -23,9 +23,6 @@ class Page2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dependencies.tracker.track()
-
     }
-    
 
 }

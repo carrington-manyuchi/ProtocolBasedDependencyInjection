@@ -7,13 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+    
+    let dependencies = AppDependencies()
+    
+  // let page1 = Page1ViewController(dependencies)
 
 
+
+
+
+
+
+extension AppDependencies: ABTestingImplementation, NetworkingImplementation, TrackingImplementation {
+    
+    
 }
-

@@ -28,6 +28,10 @@
 		E649EF172C2C58D900F8D554 /* ABTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF162C2C58D900F8D554 /* ABTester.swift */; };
 		E649EF192C2C58F200F8D554 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF182C2C58F200F8D554 /* WebService.swift */; };
 		E649EF1B2C2C593B00F8D554 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF1A2C2C593B00F8D554 /* AppDependencies.swift */; };
+		E649F1652C2C6A3400F8D554 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649F1642C2C6A3400F8D554 /* Page3ViewController.swift */; };
+		E649F1672C2C6A5C00F8D554 /* FeatureToggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649F1662C2C6A5C00F8D554 /* FeatureToggles.swift */; };
+		E649F1692C2C6A7E00F8D554 /* FeatureTogglesImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649F1682C2C6A7E00F8D554 /* FeatureTogglesImplementation.swift */; };
+		E649F16B2C2C6B2100F8D554 /* FeatureTogglesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649F16A2C2C6B2100F8D554 /* FeatureTogglesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,10 @@
 		E649EF162C2C58D900F8D554 /* ABTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTester.swift; sourceTree = "<group>"; };
 		E649EF182C2C58F200F8D554 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		E649EF1A2C2C593B00F8D554 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		E649F1642C2C6A3400F8D554 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		E649F1662C2C6A5C00F8D554 /* FeatureToggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureToggles.swift; sourceTree = "<group>"; };
+		E649F1682C2C6A7E00F8D554 /* FeatureTogglesImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTogglesImplementation.swift; sourceTree = "<group>"; };
+		E649F16A2C2C6B2100F8D554 /* FeatureTogglesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTogglesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +131,8 @@
 		E649EECC2C2C516D00F8D554 /* ProtocolBasedDependencyInjection */ = {
 			isa = PBXGroup;
 			children = (
-				E649EF132C2C588600F8D554 /* Models */,
 				E649EEFD2C2C520F00F8D554 /* Supporting */,
+				E649EF132C2C588600F8D554 /* Models */,
 				E649EEFE2C2C522200F8D554 /* Protocols */,
 				E649EF072C2C528600F8D554 /* ViewControllers */,
 				E649EF082C2C529600F8D554 /* Views */,
@@ -176,6 +184,7 @@
 				E649EED12C2C516D00F8D554 /* ViewController.swift */,
 				E649EF052C2C527E00F8D554 /* Page1ViewController.swift */,
 				E649EF092C2C530800F8D554 /* Page2ViewController.swift */,
+				E649F1642C2C6A3400F8D554 /* Page3ViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -195,6 +204,7 @@
 				E649EEFF2C2C523100F8D554 /* Networking.swift */,
 				E649EF012C2C524500F8D554 /* Tracking.swift */,
 				E649EF032C2C525E00F8D554 /* ABTesting.swift */,
+				E649F1662C2C6A5C00F8D554 /* FeatureToggles.swift */,
 			);
 			path = BaseProtocols;
 			sourceTree = "<group>";
@@ -205,6 +215,7 @@
 				E649EF0D2C2C548500F8D554 /* NetworkingImplementation.swift */,
 				E649EF0F2C2C54B000F8D554 /* TrackingImplementation.swift */,
 				E649EF112C2C54CF00F8D554 /* ABTestingImplementation.swift */,
+				E649F1682C2C6A7E00F8D554 /* FeatureTogglesImplementation.swift */,
 			);
 			path = ProtocolsImplementation;
 			sourceTree = "<group>";
@@ -215,6 +226,7 @@
 				E649EF142C2C589200F8D554 /* Tracker.swift */,
 				E649EF162C2C58D900F8D554 /* ABTester.swift */,
 				E649EF182C2C58F200F8D554 /* WebService.swift */,
+				E649F16A2C2C6B2100F8D554 /* FeatureTogglesManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -352,7 +364,10 @@
 			files = (
 				E649EF152C2C589200F8D554 /* Tracker.swift in Sources */,
 				E649EF172C2C58D900F8D554 /* ABTester.swift in Sources */,
+				E649F16B2C2C6B2100F8D554 /* FeatureTogglesManager.swift in Sources */,
 				E649EF192C2C58F200F8D554 /* WebService.swift in Sources */,
+				E649F1652C2C6A3400F8D554 /* Page3ViewController.swift in Sources */,
+				E649F1692C2C6A7E00F8D554 /* FeatureTogglesImplementation.swift in Sources */,
 				E649EF1B2C2C593B00F8D554 /* AppDependencies.swift in Sources */,
 				E649EF102C2C54B000F8D554 /* TrackingImplementation.swift in Sources */,
 				E649EF022C2C524500F8D554 /* Tracking.swift in Sources */,
@@ -361,6 +376,7 @@
 				E649EED22C2C516D00F8D554 /* ViewController.swift in Sources */,
 				E649EF122C2C54CF00F8D554 /* ABTestingImplementation.swift in Sources */,
 				E649EECE2C2C516D00F8D554 /* AppDelegate.swift in Sources */,
+				E649F1672C2C6A5C00F8D554 /* FeatureToggles.swift in Sources */,
 				E649EF062C2C527E00F8D554 /* Page1ViewController.swift in Sources */,
 				E649EF0E2C2C548500F8D554 /* NetworkingImplementation.swift in Sources */,
 				E649EED02C2C516D00F8D554 /* SceneDelegate.swift in Sources */,
