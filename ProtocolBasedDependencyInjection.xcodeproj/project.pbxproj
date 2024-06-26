@@ -16,6 +16,14 @@
 		E649EEE52C2C517100F8D554 /* ProtocolBasedDependencyInjectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EEE42C2C517100F8D554 /* ProtocolBasedDependencyInjectionTests.swift */; };
 		E649EEEF2C2C517100F8D554 /* ProtocolBasedDependencyInjectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EEEE2C2C517100F8D554 /* ProtocolBasedDependencyInjectionUITests.swift */; };
 		E649EEF12C2C517100F8D554 /* ProtocolBasedDependencyInjectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EEF02C2C517100F8D554 /* ProtocolBasedDependencyInjectionUITestsLaunchTests.swift */; };
+		E649EF002C2C523100F8D554 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EEFF2C2C523100F8D554 /* Networking.swift */; };
+		E649EF022C2C524500F8D554 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF012C2C524500F8D554 /* Tracking.swift */; };
+		E649EF042C2C525E00F8D554 /* ABTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF032C2C525E00F8D554 /* ABTesting.swift */; };
+		E649EF062C2C527E00F8D554 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF052C2C527E00F8D554 /* Page1ViewController.swift */; };
+		E649EF0A2C2C530800F8D554 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF092C2C530800F8D554 /* Page2ViewController.swift */; };
+		E649EF0E2C2C548500F8D554 /* NetworkingImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF0D2C2C548500F8D554 /* NetworkingImplementation.swift */; };
+		E649EF102C2C54B000F8D554 /* TrackingImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF0F2C2C54B000F8D554 /* TrackingImplementation.swift */; };
+		E649EF122C2C54CF00F8D554 /* ABTestingImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF112C2C54CF00F8D554 /* ABTestingImplementation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		E649EEEA2C2C517100F8D554 /* ProtocolBasedDependencyInjectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolBasedDependencyInjectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E649EEEE2C2C517100F8D554 /* ProtocolBasedDependencyInjectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBasedDependencyInjectionUITests.swift; sourceTree = "<group>"; };
 		E649EEF02C2C517100F8D554 /* ProtocolBasedDependencyInjectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBasedDependencyInjectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E649EEFF2C2C523100F8D554 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		E649EF012C2C524500F8D554 /* Tracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracking.swift; sourceTree = "<group>"; };
+		E649EF032C2C525E00F8D554 /* ABTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTesting.swift; sourceTree = "<group>"; };
+		E649EF052C2C527E00F8D554 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		E649EF092C2C530800F8D554 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		E649EF0D2C2C548500F8D554 /* NetworkingImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingImplementation.swift; sourceTree = "<group>"; };
+		E649EF0F2C2C54B000F8D554 /* TrackingImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingImplementation.swift; sourceTree = "<group>"; };
+		E649EF112C2C54CF00F8D554 /* ABTestingImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTestingImplementation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +115,10 @@
 		E649EECC2C2C516D00F8D554 /* ProtocolBasedDependencyInjection */ = {
 			isa = PBXGroup;
 			children = (
-				E649EECD2C2C516D00F8D554 /* AppDelegate.swift */,
-				E649EECF2C2C516D00F8D554 /* SceneDelegate.swift */,
-				E649EED12C2C516D00F8D554 /* ViewController.swift */,
-				E649EED32C2C516D00F8D554 /* Main.storyboard */,
-				E649EED62C2C516E00F8D554 /* Assets.xcassets */,
-				E649EED82C2C516E00F8D554 /* LaunchScreen.storyboard */,
+				E649EEFD2C2C520F00F8D554 /* Supporting */,
+				E649EEFE2C2C522200F8D554 /* Protocols */,
+				E649EF072C2C528600F8D554 /* ViewControllers */,
+				E649EF082C2C529600F8D554 /* Views */,
 				E649EEDB2C2C516E00F8D554 /* Info.plist */,
 			);
 			path = ProtocolBasedDependencyInjection;
@@ -125,6 +139,64 @@
 				E649EEF02C2C517100F8D554 /* ProtocolBasedDependencyInjectionUITestsLaunchTests.swift */,
 			);
 			path = ProtocolBasedDependencyInjectionUITests;
+			sourceTree = "<group>";
+		};
+		E649EEFD2C2C520F00F8D554 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				E649EECD2C2C516D00F8D554 /* AppDelegate.swift */,
+				E649EECF2C2C516D00F8D554 /* SceneDelegate.swift */,
+				E649EED62C2C516E00F8D554 /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		E649EEFE2C2C522200F8D554 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E649EF0B2C2C544C00F8D554 /* BaseProtocols */,
+				E649EF0C2C2C545C00F8D554 /* ProtocolsImplementation */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E649EF072C2C528600F8D554 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E649EED12C2C516D00F8D554 /* ViewController.swift */,
+				E649EF052C2C527E00F8D554 /* Page1ViewController.swift */,
+				E649EF092C2C530800F8D554 /* Page2ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E649EF082C2C529600F8D554 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E649EED32C2C516D00F8D554 /* Main.storyboard */,
+				E649EED82C2C516E00F8D554 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E649EF0B2C2C544C00F8D554 /* BaseProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				E649EEFF2C2C523100F8D554 /* Networking.swift */,
+				E649EF012C2C524500F8D554 /* Tracking.swift */,
+				E649EF032C2C525E00F8D554 /* ABTesting.swift */,
+			);
+			path = BaseProtocols;
+			sourceTree = "<group>";
+		};
+		E649EF0C2C2C545C00F8D554 /* ProtocolsImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				E649EF0D2C2C548500F8D554 /* NetworkingImplementation.swift */,
+				E649EF0F2C2C54B000F8D554 /* TrackingImplementation.swift */,
+				E649EF112C2C54CF00F8D554 /* ABTestingImplementation.swift */,
+			);
+			path = ProtocolsImplementation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +330,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E649EF102C2C54B000F8D554 /* TrackingImplementation.swift in Sources */,
+				E649EF022C2C524500F8D554 /* Tracking.swift in Sources */,
+				E649EF042C2C525E00F8D554 /* ABTesting.swift in Sources */,
+				E649EF0A2C2C530800F8D554 /* Page2ViewController.swift in Sources */,
 				E649EED22C2C516D00F8D554 /* ViewController.swift in Sources */,
+				E649EF122C2C54CF00F8D554 /* ABTestingImplementation.swift in Sources */,
 				E649EECE2C2C516D00F8D554 /* AppDelegate.swift in Sources */,
+				E649EF062C2C527E00F8D554 /* Page1ViewController.swift in Sources */,
+				E649EF0E2C2C548500F8D554 /* NetworkingImplementation.swift in Sources */,
 				E649EED02C2C516D00F8D554 /* SceneDelegate.swift in Sources */,
+				E649EF002C2C523100F8D554 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
