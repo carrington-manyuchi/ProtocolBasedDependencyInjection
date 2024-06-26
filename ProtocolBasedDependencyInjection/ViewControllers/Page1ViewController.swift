@@ -28,6 +28,7 @@ class Page1ViewController: UIViewController {
     
     func navigateToPage2() {
         let page2 =  Page2ViewController(dependencies: dependencies)
+        print(page2)
     }
    
 }

@@ -24,6 +24,10 @@
 		E649EF0E2C2C548500F8D554 /* NetworkingImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF0D2C2C548500F8D554 /* NetworkingImplementation.swift */; };
 		E649EF102C2C54B000F8D554 /* TrackingImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF0F2C2C54B000F8D554 /* TrackingImplementation.swift */; };
 		E649EF122C2C54CF00F8D554 /* ABTestingImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF112C2C54CF00F8D554 /* ABTestingImplementation.swift */; };
+		E649EF152C2C589200F8D554 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF142C2C589200F8D554 /* Tracker.swift */; };
+		E649EF172C2C58D900F8D554 /* ABTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF162C2C58D900F8D554 /* ABTester.swift */; };
+		E649EF192C2C58F200F8D554 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF182C2C58F200F8D554 /* WebService.swift */; };
+		E649EF1B2C2C593B00F8D554 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649EF1A2C2C593B00F8D554 /* AppDependencies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		E649EF0D2C2C548500F8D554 /* NetworkingImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingImplementation.swift; sourceTree = "<group>"; };
 		E649EF0F2C2C54B000F8D554 /* TrackingImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingImplementation.swift; sourceTree = "<group>"; };
 		E649EF112C2C54CF00F8D554 /* ABTestingImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTestingImplementation.swift; sourceTree = "<group>"; };
+		E649EF142C2C589200F8D554 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		E649EF162C2C58D900F8D554 /* ABTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTester.swift; sourceTree = "<group>"; };
+		E649EF182C2C58F200F8D554 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		E649EF1A2C2C593B00F8D554 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +123,13 @@
 		E649EECC2C2C516D00F8D554 /* ProtocolBasedDependencyInjection */ = {
 			isa = PBXGroup;
 			children = (
+				E649EF132C2C588600F8D554 /* Models */,
 				E649EEFD2C2C520F00F8D554 /* Supporting */,
 				E649EEFE2C2C522200F8D554 /* Protocols */,
 				E649EF072C2C528600F8D554 /* ViewControllers */,
 				E649EF082C2C529600F8D554 /* Views */,
 				E649EEDB2C2C516E00F8D554 /* Info.plist */,
+				E649EF1A2C2C593B00F8D554 /* AppDependencies.swift */,
 			);
 			path = ProtocolBasedDependencyInjection;
 			sourceTree = "<group>";
@@ -197,6 +207,16 @@
 				E649EF112C2C54CF00F8D554 /* ABTestingImplementation.swift */,
 			);
 			path = ProtocolsImplementation;
+			sourceTree = "<group>";
+		};
+		E649EF132C2C588600F8D554 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E649EF142C2C589200F8D554 /* Tracker.swift */,
+				E649EF162C2C58D900F8D554 /* ABTester.swift */,
+				E649EF182C2C58F200F8D554 /* WebService.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E649EF152C2C589200F8D554 /* Tracker.swift in Sources */,
+				E649EF172C2C58D900F8D554 /* ABTester.swift in Sources */,
+				E649EF192C2C58F200F8D554 /* WebService.swift in Sources */,
+				E649EF1B2C2C593B00F8D554 /* AppDependencies.swift in Sources */,
 				E649EF102C2C54B000F8D554 /* TrackingImplementation.swift in Sources */,
 				E649EF022C2C524500F8D554 /* Tracking.swift in Sources */,
 				E649EF042C2C525E00F8D554 /* ABTesting.swift in Sources */,
